@@ -3,12 +3,12 @@
 $RestrictedDirectory = @(
 	"$env:userprofile\Downloads",
 	"$env:userprofile\Documents",
-	"D:\",
+	"D:\"
 )
 	
 $AllowedDirectory = @(
 	"$env:userprofile\Desktop",
-	"D:\Games",
+	"D:\Games"
 )
 
 $ExecutableTypes = @("ADE", "ADP", "BAS", "BAT", "CHM", "CMD", "COM", "CPL", "CRT", "EXE", "HLP", "HTA", "INF", "INS", "ISP", "LNK", "MDB", "MDE", "MSC", "MSI", "MSP", "MST", "OCX", "PCD", "PIF", "REG", "SCR", "SHS", "URL", "VB", "WSC")
